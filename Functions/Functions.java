@@ -2,8 +2,6 @@ import java.util.*;
 
 class Functions{
     
-    
-
     protected int add(int x, int y){
         //TODO
         //declare result
@@ -36,3 +34,5 @@ class Functions{
         return result
     }
 }
+
+

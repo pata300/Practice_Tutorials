@@ -12,7 +12,7 @@ class Functions{
         return result ;
     }
 
-    private int subtract(int x, int y){
+    protected int subtract(int x, int y){
         //TODO
         //declare result
 
@@ -20,7 +20,7 @@ class Functions{
         return result
     }
 
-    private int divide(int x, int y){
+    protected int divide(int x, int y){
         //TODO
         //declare result
 
@@ -28,7 +28,7 @@ class Functions{
         return result
     }
 
-    private int multiply(int x, int y){
+    protected int multiply(int x, int y){
         //TODO
         //declare result
 

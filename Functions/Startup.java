@@ -5,22 +5,24 @@ class Startup{
         Functions math = new Functions();
         Scanner input = new Scanner(System.in);
 
+        int result;
+
         System.out.println("What is the value of x?");
         int x = input.nextInt();
 
         System.out.println("What is the value of y?");
         int y = input.nextInt();
 
-        int result = math.add(x, y);
+        result = math.add(x, y);
         printResult(x, y, result, "add");
 
-        int result = math.subtract(x, y);
+        result = math.subtract(x, y);
         printResult(x, y, result, "subtract");
 
-        int result = math.multiply(x, y);
+        result = math.multiply(x, y);
         printResult(x, y, result, "multiply");
 
-        int result = math.divide(x, y);
+        result = math.divide(x, y);
         printResult(x, y, result, "divide");
         
     }
